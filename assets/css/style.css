@@ -1,0 +1,223 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: rgb(75, 69, 69);
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+a {
+  color: #0a0b0f;
+  text-decoration: none;
+}
+.container {
+  padding: 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+.header_img img {
+  width: auto;
+  height: 47vh;
+}
+.header_content.mt-5 {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.header_content h3 {
+  font-weight: bold;
+}
+.header_content h5 {
+  line-height: 30px;
+  color: rgb(94, 94, 94);
+}
+.flex_system.d-flex h3 {
+  margin: 40px 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.context {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5%;
+  background: #d7dbe9c0;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+}
+.gallery img {
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+}
+/* --------------------service css-------------------------------- */
+
+.common h5 {
+  text-align: center;
+  color: #fff;
+  background: #000;
+  width: 20%;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+.serviecss {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.img_text {
+  text-align: center;
+  margin: 20px 0px;
+}
+#services {
+  margin: 50px 0px;
+}
+.img_text {
+  text-align: center;
+  margin: 20px 0px;
+  padding: 30px 10px 10px 10px;
+  background-color: transparent;
+  background-image: linear-gradient(225deg, #ffffff 0%, #e6ebee 100%);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 0px rgb(173 172 172 / 50%);
+}
+/* .contact form */
+.contactt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 {
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+}
+.container1 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container1 .content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i {
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.container1 .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+.right-side p {
+  line-height: 30px;
+}
+.content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f0f1f8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box {
+  min-height: 110px;
+}
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+.right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover {
+  background: #5029bc;
+}
